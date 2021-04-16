@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестирование экстрасенсов - Приветствие</title>
+</head>
+<body>
+
+<div style="text-align: center; font-family: sans-serif">
+
+    <h1>Тестирование экстрасенсов</h1>
+
+    <p>Здравствуйте! Загадайте пожалуйста двузначное число.</p>
+
+    <form action="/start/" method="post">
+        <button name="startBtn" type="submit">Готово</button>
+    </form><br/>
+
+    <p>История загаданных чисел: {{ user_history }}</p>
+
+</div>
+
+</body>
+</html>
